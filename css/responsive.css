@@ -1,0 +1,47 @@
+/* Default styles (mobile-first approach) */
+@media(min-width:600px)and(max-width:800px){
+main {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .weara{
+    height: 50px;
+    width: 200px;
+  }
+  #outcome{
+    height: 100%;
+    width: 100%;
+  }
+
+  #outcome2{
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+}
+  /* Tablet (medium screens) */
+  @media (min-width: 768px) {
+    main {
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Desktop (large screens) */
+  @media (min-width: 500px) {
+    main {
+      padding: 20px;
+      font-size: 20px;
+    }
+
+    #outcome{
+        height: 76vh;
+    }
+
+
+  }
+  
